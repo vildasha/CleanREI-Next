@@ -15,6 +15,7 @@ const Home = () => {
               <img
                 alt="image"
                 src="/playground_assets/cleanrei-1500h.png"
+                id="top"
                 className="image"
               />
               <div data-type="BurgerMenu" className="burger-menu">
@@ -23,14 +24,17 @@ const Home = () => {
                 </svg>
               </div>
               <div className="links-container">
-                <a href="#resources" className="link anchor">
-                  Resources
+                <a href="#home" className="link anchor">
+                  Home
                 </a>
-                <a href="#inspiration" className="link01 anchor">
-                  Inspiration
+                <a href="#about" className="link01 anchor">
+                  About
                 </a>
-                <a href="#ourstory" className="link02 anchor">
-                  Our story
+                <a href="#blog" className="link02 anchor">
+                  Blog
+                </a>
+                <a href="#contact" className="link03 anchor">
+                  Contact
                 </a>
               </div>
             </div>
@@ -48,21 +52,19 @@ const Home = () => {
                 </div>
               </div>
               <div className="links-container1">
-                <a href="#resources" className="link03 anchor">
-                  Resources
-                </a>
-                <a href="#inspiration" className="link04 anchor">
+                <span className="link04 anchor">Resources</span>
+                <a href="#inspiration" className="link05 anchor">
                   Inspiration
                 </a>
-                <span className="link05 anchor">Process</span>
-                <a href="#ourstory" className="link06 anchor">
+                <span className="link06 anchor">Process</span>
+                <a href="#ourstory" className="link07 anchor">
                   Our story
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div id="resources" className="hero">
+        <div id="home" className="hero">
           <div className="content-container">
             <div className="hero-text">
               <h1 className="heading section-Heading">Hi Visitor</h1>
@@ -81,7 +83,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div id="inspiration" className="features">
+        <div id="about" className="features">
           <div className="heading-container">
             <h2 className="text03 section-Heading">
               Which are the greatest things about us?
@@ -189,7 +191,7 @@ const Home = () => {
           </div>
         </div>
         <div className="section-separator1"></div>
-        <div id="ourstory" className="our-story">
+        <div id="blog" className="our-story">
           <div className="heading-container2">
             <h1 className="text10 section-Heading">Our story</h1>
             <span className="text11 section-Text">
@@ -383,7 +385,7 @@ const Home = () => {
           </div>
         </div>
         <div className="section-separator2"></div>
-        <div className="get-in-touch">
+        <div id="contact" className="get-in-touch">
           <h2 className="text28 section-Heading">Get in touch</h2>
           <div className="content-container6">
             <div className="form-container">
@@ -529,6 +531,10 @@ const Home = () => {
             text-decoration: none;
           }
           .link02 {
+            padding-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .link03 {
             text-decoration: none;
           }
           .mobile-menu {
@@ -574,10 +580,6 @@ const Home = () => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .link03 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
           .link04 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
@@ -587,6 +589,10 @@ const Home = () => {
             text-decoration: none;
           }
           .link06 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .link07 {
             text-decoration: none;
           }
           .hero {
