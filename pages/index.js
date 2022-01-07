@@ -29,8 +29,7 @@ const Home = () => {
                 <a href="#inspiration" className="link01 anchor">
                   Inspiration
                 </a>
-                <span className="link02 anchor">Process</span>
-                <a href="#ourstory" className="link03 anchor">
+                <a href="#ourstory" className="link02 anchor">
                   Our story
                 </a>
               </div>
@@ -49,14 +48,14 @@ const Home = () => {
                 </div>
               </div>
               <div className="links-container1">
-                <a href="#resources" className="link04 anchor">
+                <a href="#resources" className="link03 anchor">
                   Resources
                 </a>
-                <a href="#inspiration" className="link05 anchor">
+                <a href="#inspiration" className="link04 anchor">
                   Inspiration
                 </a>
-                <span className="link06 anchor">Process</span>
-                <a href="#ourstory" className="link07 anchor">
+                <span className="link05 anchor">Process</span>
+                <a href="#ourstory" className="link06 anchor">
                   Our story
                 </a>
               </div>
@@ -527,10 +526,6 @@ const Home = () => {
             text-decoration: none;
           }
           .link02 {
-            margin-right: var(--dl-space-space-tripleunit);
-            text-decoration: none;
-          }
-          .link03 {
             text-decoration: none;
           }
           .mobile-menu {
@@ -576,6 +571,10 @@ const Home = () => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .link03 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .link04 {
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
@@ -585,10 +584,6 @@ const Home = () => {
             text-decoration: none;
           }
           .link06 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .link07 {
             text-decoration: none;
           }
           .hero {
